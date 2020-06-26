@@ -2,6 +2,82 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   margin: 0;
+  
+  height: 100vh;
+}
+.results__wrapper{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.result__card{
+  padding: 1rem;
+  border: 1px solid grey;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.searchbar{
+  display: flex;
+  padding: 3rem 1rem;
+  justify-content: center;
+  text-align: center;
+  & input{
+    padding: 1rem;
+  }
+  & button{
+    padding:1rem;
+  }
+}
+.searchbar__to{
+  margin: 0.2rem;
+}
+.searchbar__from{
+  margin: 0.2rem;
+}
+.buttonclick{
+  width: 40%;
+  height:3rem;
+  transition: 1s;
+  background-color: gold;
+
+}
+.buttonclick:hover{
+  background-color: orange;
+  width: 45%;
+  height: 3.2rem;
+}
+.find{
+  text-align: center;
+}
+.checkbox{
+  padding-left: 1rem;
+}
+.check{
+  margin-left: 1rem;
+}
+.result__card{
+  display: flex;
+  flex-direction: row;
 }

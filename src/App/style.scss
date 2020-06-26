@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: red;
+  height: 100vh;
+}
+.results__wrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
